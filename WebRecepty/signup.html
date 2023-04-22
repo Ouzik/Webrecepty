@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="side">
+        <img src="images/home-img.png" alt="">
+    </section>
+
+    <section class="main">
+        <div class="login-container">
+            <p class="title">Welcome to our website</p>
+            <div class="separator"></div>
+            <p class="welcome-message">Please, provide register credential to proceed and have access to all our services</p>
+
+
+            <form action="process-signup.php" method ="post" id="signup" class="login-form" novalidate>
+                <div class="form-control">
+                    <input type="text" name="name" id="name" placeholder="Name" value="">
+                    
+                    <i class="fas fa-user"></i>
+                </div>
+
+                <div class="form-control">
+                    <input type="email" name="email" id="email" placeholder="Email" value="">
+                    
+                    <i class="fas fa-envelope"></i>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Repeat password">
+                    <i class="fas fa-lock"></i>
+                </div>
+
+                <button class="submit">Sign Up</button>
+                
+            </form>
+        </div>
+    </section>
+    
+   
+
+    
+
+    
+</body>
+</html>
